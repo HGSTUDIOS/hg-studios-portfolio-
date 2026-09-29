@@ -29,7 +29,7 @@ const PROJECTS = [
   {id:'still-20',  title:'Wedding Anniversary Creative', category:'still', label:'Graphic Design', type:'image', src:'assets/daystar-wedding-anniversary-01.jpg', description:'Wedding anniversary social media artwork created for Daystar Christian Centre, Mowokekere.', tools:'Photoshop / CorelDRAW' },
   
   {id:'motion-01',title:'Church Advert',category:'motion',label:'Motion Graphics',type:'youtube',src:'ET58YflUUX8',thumbnail:'assets/motion/motion-1.jpg', url:'https://youtu.be/ET58YflUUX8',description:'Animated social content combining typography, timing and visual transitions.',tools:'Capcut / Premiere Pro'},
-  {id:'motion-02',title:'ProEducArt',category:'motion',label:'Motion Graphics',type:'video',src:'PI5UREqa0-E', thumbnail:'assets/motion/motion-2.jpg', url:'https://youtu.be/PI5UREqa0-E?si=_Gi4mKhkwsNkFfJl', description:'Motion-led educational/promotional content.',tools:'Capcut / Premiere Pro'},
+  {id:'motion-02',title:'ProEducArt',category:'motion',label:'Motion Graphics',type:'youtube',src:'PI5UREqa0-E', thumbnail:'assets/motion/motion-2.jpg', url:'https://youtu.be/PI5UREqa0-E?si=_Gi4mKhkwsNkFfJl', description:'Motion-led educational/promotional content.',tools:'Capcut / Premiere Pro'},
   
 
   {id:'3d-01',title:'Low-Poly House',category:'3d',label:'3D / Blender',type:'image',src:'assets/3d-01.webp',description:'3D environment study.',tools:'Blender'},
@@ -58,7 +58,7 @@ Object.entries(CATEGORY_LABELS).forEach(([key,label])=>{
 });
 
 function mediaMarkup(p){
-  if(p.type==='youtube') return `<button class="project-media media-button youtube-thumb" data-id="${p.id}" aria-label="Watch ${p.title}"><img src="https://img.youtube.com/vi/${p.src}/hqdefault.jpg" alt="${p.title} YouTube thumbnail" loading="lazy"><span class="youtube-overlay"><span class="youtube-play">▶</span><small>WATCH</small></span></button>`;
+  if(p.type==='youtube') return `<button class="project-media media-button youtube-thumb" data-id="${p.id}" aria-label="Watch ${p.title}"><img src="${p.thumbnail || `https://img.youtube.com/vi/${p.src}/hqdefault.jpg`}" alt="${p.title} YouTube thumbnail" loading="lazy"><span class="youtube-overlay"><span class="youtube-play">▶</span><small>WATCH</small></span></button>`;
   if(p.type==='video') return `<button class="project-media media-button" data-id="${p.id}" aria-label="Open ${p.title}"><video muted playsinline preload="metadata" poster="${p.poster||''}"><source src="${p.src}" type="video/mp4"></video><span class="play-badge">▶</span></button>`;
   return `<button class="project-media media-button" data-id="${p.id}" aria-label="Open ${p.title}"><img src="${p.src}" alt="${p.title}" loading="lazy"></button>`;
 }
