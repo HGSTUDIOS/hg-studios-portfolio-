@@ -28,7 +28,7 @@ const PROJECTS = [
   {id:'still-19', title:'Birthday Portrait Design',  category:'still',  label:'Graphic Design', type:'image',  src:'assets/daystar-birthday-design-02.jpg',  description:'Premium birthday portrait artwork combining photography, typography and elegant visual styling.',  tools:'Photoshop / CorelDRAW'  },
   {id:'still-20',  title:'Wedding Anniversary Creative', category:'still', label:'Graphic Design', type:'image', src:'assets/daystar-wedding-anniversary-01.jpg', description:'Wedding anniversary social media artwork created for Daystar Christian Centre, Mowokekere.', tools:'Photoshop / CorelDRAW' },
   
-  {id:'motion-01',title:'Church Advert',category:'motion',label:'Motion Graphics',type:'youtube',src:'ET58YflUUX8',thumbnail:'assets/motion/motion-1.jpg', url:'https://youtu.be/ET58YflUUX8',description:'Animated social content combining typography, timing and visual transitions.',tools:'Capcut / Premiere Pro'},
+  {id:'motion-01',title:'Church Advert',category:'motion',label:'Motion Graphics',type:'youtube',src:'ET58YflUUX8',thumbnail:'assets/motion/motion-1.png', url:'https://youtu.be/ET58YflUUX8',description:'Animated social content combining typography, timing and visual transitions.',tools:'Capcut / Premiere Pro'},
   {id:'motion-02',title:'ProEducArt',category:'motion',label:'Motion Graphics',type:'youtube',src:'PI5UREqa0-E', thumbnail:'assets/motion/motion-2.png', url:'https://youtu.be/PI5UREqa0-E', description:'Motion-led educational/promotional content.',tools:'Capcut / Premiere Pro'},
   
 
