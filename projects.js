@@ -39,7 +39,7 @@ const PROJECTS = [
   {id:'3d-02',title:'3D Low-poly Room',category:'3d',label:'3D / Blender',type:'image',src:'assets/3d-02.webp',description:'Character modelling study.',tools:'Blender'},
   {id:'3d-03',title:'3D Low-poly Room',category:'3d',label:'3D / Blender',type:'image',src:'assets/3d-03.webp',description:'Environment and composition study.',tools:'Blender'},
 
-  {id:'video-01',title:'Flash Race — Trailer',category:'video-editing',label:'Video Editing / VFX',type:'youtube',src:'Q1NSSibGbSc',url:'https://youtu.be/Q1NSSibGbSc',description:'A trailer edit combining pacing, effects and cinematic presentation.',tools:'Premiere Pro / After Effects'},
+  {id:'video-01',title:'Flash Race — Trailer',category:'video-editing',label:'Video Editing / VFX',type:'youtube',src:'Q1NSSibGbSc',url:'https://youtu.be/Q1NSSibGbSc',description:'A trailer edit combining pacing, effects and cinematic presentation.',tools:'Premiere Pro / VFX'},
   {id:'video-02',title:'Do You Know? — Insects',category:'video-editing',label:'Video Editing / Social',type:'youtube',src:'VubP-G9_hWM',url:'https://youtu.be/VubP-G9_hWM',description:'Short-form educational content designed for social platforms.',tools:'Video Editing / Motion Graphics'},
   {id:'video-03',title:'Blender Basics for Beginners',category:'video-editing',label:'Video / Education',type:'youtube',src:'Mg5HOixIdls',url:'https://youtu.be/Mg5HOixIdls',description:'Educational video content introducing Blender fundamentals.',tools:'Blender / Video Editing'},
   
