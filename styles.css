@@ -26,3 +26,8 @@
 .yt-project{aspect-ratio:auto}
 @media(max-width:900px){.brand img{width:68px}.hero-mark img{width:min(72vw,310px);max-height:310px}.site-header{height:72px}.mobile-menu{inset:72px 0 auto 0}}
 @media(max-width:600px){.brand img{width:60px}.hero-mark{width:100%;margin-top:12px}.hero-mark img{width:min(62vw,250px);max-height:250px}.hero{padding-top:45px}.hero h1{font-size:clamp(44px,14vw,58px);line-height:.98}.role-strip{gap:7px}.role-strip span{font-size:9px;padding:7px 9px}.project-media{aspect-ratio:4/5}.youtube-thumb{aspect-ratio:16/9}.yt-thumb{aspect-ratio:16/9}.tools{gap:18px}.tool-list{gap:7px!important}.tool-list b{font-size:11px;padding:8px 10px}.tool-list b img{width:16px;height:16px}.social-link{padding:17px 13px}.social-name img{width:18px;height:18px}}
+
+/* Website project screenshots */
+.project-card.web-project .project-media{aspect-ratio:16/9}
+.project-card.web-project .project-media img{object-fit:cover}
+@media(max-width:600px){.project-card.web-project .project-media{aspect-ratio:16/9}}
