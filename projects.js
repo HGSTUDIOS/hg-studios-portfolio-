@@ -67,7 +67,7 @@ Object.entries(CATEGORY_LABELS).forEach(([key,label])=>{
 
 function mediaMarkup(p){
   if(p.type==='youtube') return `<button class="project-media media-button youtube-thumb" data-id="${p.id}" aria-label="Watch ${p.title}"><img src="${p.thumbnail || `https://img.youtube.com/vi/${p.src}/hqdefault.jpg`}" alt="${p.title} YouTube thumbnail" loading="lazy"><span class="youtube-overlay"><span class="youtube-play">▶</span><small>WATCH</small></span></button>`;
-  if(p.type==='video') return `<button class="project-media media-button" data-id="${p.id}" aria-label="Open ${p.title}"><video muted playsinline preload="metadata" poster="${p.poster||''}"><source src="${p.src}" type="video/mp4"></video><span class="play-badge">▶</span></button>`;
+  if(p.type==='video') return `<button class="project-media media-button" data-id="${p.id}" aria-label="Open ${p.title}"><video muted playsinline preload="metadata" poster="${p.poster||''}"><source src="${p.src}"></video><span class="play-badge">▶</span></button>`;
   return `<button class="project-media media-button" data-id="${p.id}" aria-label="Open ${p.title}"><img src="${p.src}" alt="${p.title}" loading="lazy"></button>`;
 }
 
